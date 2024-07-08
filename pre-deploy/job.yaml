@@ -11,5 +11,5 @@ spec:
         args:
         - /bin/sh
         - -c
-        - "sleep 5 && exit 0"
+        - "sleep 5 && exit 1"
         image: ghcr.io/stefanprodan/podinfo:${IMAGE_TAG}
